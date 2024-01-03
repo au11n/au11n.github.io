@@ -1,7 +1,7 @@
 ---
 title: "Создание блога на WordPress. AWS + Apache + PHP + MySQL."
 date: 2023-11-09T11:30:03+00:00
-tags: ["Блог"]
+tags: ["Блог", "Apache", "Linux", "MySQL", "PHP", "WordPress", "AWS"]
 author: "Aull Nikita"
 showToc: true
 TocOpen: false
