@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Aull Nikita Blog</title>
+    <link>https://natangard.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Aull Nikita Blog</description>
+    <image>
+      <title>Aull Nikita Blog</title>
+      <url>https://natangard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://natangard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Nov 2023 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://natangard.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Создание блога на WordPress. AWS &#43; Apache &#43; PHP &#43; MySQL.</title>
+      <link>https://natangard.github.io/posts/blog-na-wordpress/</link>
+      <pubDate>Thu, 09 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://natangard.github.io/posts/blog-na-wordpress/</guid>
+      <description>Идея создания блога родилась случайно, я увидел красивый домен на domain.com, который совпадал с моей фамилией, cтоил он 3.99$. При оплате домена мне предложили множество дополнительных решений, таких, как почта от Google, хостинг, всевозможные конструкторы сайтов в том числе на WordPress.
+Я понимал, что все эти доп. возможности подключаются в одно касание, и подумал, что это “неспортивно” и не принесет никакого удовольствия от настройки. Задумался о том, чтобы поднять свой почтовый сервер и обеспечить всех родственников красивыми почтовыми адресами вида {name}@aull.</description>
+    </item>
+  </channel>
+</rss>
