@@ -22,11 +22,13 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "/WordPress.png" # image path/url
+    image: "<text>" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
+
+![WordPress](/WordPress.png 'WordPress')
 ---
 
 Идея создания блога родилась случайно, я увидел красивый домен на domain.com, который совпадал с моей фамилией, cтоил он 3.99$. При оплате домена мне предложили множество дополнительных решений, таких, как почта от Google, хостинг, всевозможные конструкторы сайтов в том числе на WordPress.
