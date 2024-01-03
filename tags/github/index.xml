@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on Aull Nikita Blog</title>
+    <link>https://natangard.github.io/tags/github/</link>
+    <description>Recent content in GitHub on Aull Nikita Blog</description>
+    <image>
+      <title>Aull Nikita Blog</title>
+      <url>https://natangard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://natangard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Jan 2024 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://natangard.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Переезд Блога на другой хостинг и смена технологий.</title>
+      <link>https://natangard.github.io/posts/github-pages/</link>
+      <pubDate>Wed, 03 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://natangard.github.io/posts/github-pages/</guid>
+      <description>Заметил я такую странную штуку, когда я публиковал новый пост у себя в блоге, первые 3-4 дня сайт зависал от повышенной нагрузки:)
+Получается сайту хватало нагрузки в 3-5 одновременных пользователей чтобы зависнуть:)
+Я понимаю почему это происходило:
+Хостился блог на самом маленьком из возможных серверов на Амазоне. Связка WordPress, Apache и MySQL достаточно прожорливая. Плюс я всё это обвешал всякими мониторингами. Случились эти зависания несколько раз и стал терять всякое желание писать посты в блоге, потому что стал сильно расстраиваться, что всё это работает нестабильно.</description>
+    </item>
+  </channel>
+</rss>

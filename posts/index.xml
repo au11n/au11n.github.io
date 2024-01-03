@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Dec 2023 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jan 2024 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://natangard.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Переезд Блога на другой хостинг и смена технологий.</title>
+      <link>https://natangard.github.io/posts/github-pages/</link>
+      <pubDate>Wed, 03 Jan 2024 11:30:03 +0000</pubDate>
+      <guid>https://natangard.github.io/posts/github-pages/</guid>
+      <description>Заметил я такую странную штуку, когда я публиковал новый пост у себя в блоге, первые 3-4 дня сайт зависал от повышенной нагрузки:)
+Получается сайту хватало нагрузки в 3-5 одновременных пользователей чтобы зависнуть:)
+Я понимаю почему это происходило:
+Хостился блог на самом маленьком из возможных серверов на Амазоне. Связка WordPress, Apache и MySQL достаточно прожорливая. Плюс я всё это обвешал всякими мониторингами. Случились эти зависания несколько раз и стал терять всякое желание писать посты в блоге, потому что стал сильно расстраиваться, что всё это работает нестабильно.</description>
+    </item>
     <item>
       <title>Опыт использования ChatGPT.</title>
       <link>https://natangard.github.io/posts/chatgpt/</link>
