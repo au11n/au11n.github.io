@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Nov 2023 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Dec 2023 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://natangard.github.io/tags/%D1%84%D0%B8%D0%BB%D1%8C%D0%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Опыт использования ChatGPT.</title>
+      <link>https://natangard.github.io/posts/chatgpt/</link>
+      <pubDate>Thu, 14 Dec 2023 11:30:03 +0000</pubDate>
+      <guid>https://natangard.github.io/posts/chatgpt/</guid>
+      <description>Задание для ChatGPT. Привет!
+Давай напишем статью для моего блога, об опыте использования ChatGPT.
+В статье должны быть отсылки к моей статье: https://aull.me/index.php/deutsch-lernen/
+Я расскажу тебе свой опыт, а ты оставишь об этом интересную статью.
+Можешь задать мне 10 уточняющих вопросов.
+Мой опыт: Я скептически относился к хайпу вокруг генеративных ИИ, даже ни разу не пробовал ни одного сервиса ИИ.
+Но тут посмотрел на YouTube видео урок как использовать ChatGPT а изучении языков.</description>
+    </item>
     <item>
       <title>Кино: В диких условиях. Into the Wild. 2007</title>
       <link>https://natangard.github.io/posts/into-the-wild/</link>
