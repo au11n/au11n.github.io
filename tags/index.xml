@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Nov 2023 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Nov 2023 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://natangard.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deutsch</title>
+      <link>https://natangard.github.io/tags/deutsch/</link>
+      <pubDate>Mon, 13 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://natangard.github.io/tags/deutsch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lernen</title>
+      <link>https://natangard.github.io/tags/lernen/</link>
+      <pubDate>Mon, 13 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://natangard.github.io/tags/lernen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Блог</title>
+      <link>https://natangard.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</link>
+      <pubDate>Mon, 13 Nov 2023 11:30:03 +0000</pubDate>
+      <guid>https://natangard.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Apache</title>
       <link>https://natangard.github.io/tags/apache/</link>
@@ -53,13 +74,6 @@
       <link>https://natangard.github.io/tags/wordpress/</link>
       <pubDate>Thu, 09 Nov 2023 11:30:03 +0000</pubDate>
       <guid>https://natangard.github.io/tags/wordpress/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Блог</title>
-      <link>https://natangard.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</link>
-      <pubDate>Thu, 09 Nov 2023 11:30:03 +0000</pubDate>
-      <guid>https://natangard.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</guid>
       <description></description>
     </item>
   </channel>
