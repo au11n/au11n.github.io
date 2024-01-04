@@ -1,7 +1,7 @@
 ---
 title: "Опыт использования ChatGPT."
 date: 2023-12-14T11:30:03+00:00
-tags: ["Кино", "Фильм"]
+tags: ["ChatGPT", "Блог"]
 author: "Aull Nikita"
 showToc: true
 TocOpen: false
