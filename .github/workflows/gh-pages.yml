@@ -16,6 +16,9 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+      - name: setup pages
+        id: pages
+        uses: actions/configure-pages@v3
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -24,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --gc
+        run: hugo --minify --gc --baseURL "${{ steps.pages.outputs.base_url }}"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
