@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ChatGPT on Aull Nikita Blog</title>
-    <link>http://localhost:1313/tags/chatgpt/</link>
+    <link>https://natangard.github.io/tags/chatgpt/</link>
     <description>Recent content in ChatGPT on Aull Nikita Blog</description>
     <image>
       <title>Aull Nikita Blog</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://natangard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://natangard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 14 Dec 2023 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://natangard.github.io/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Опыт использования ChatGPT.</title>
-      <link>http://localhost:1313/posts/chatgpt/</link>
+      <link>https://natangard.github.io/posts/chatgpt/</link>
       <pubDate>Thu, 14 Dec 2023 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/chatgpt/</guid>
+      <guid>https://natangard.github.io/posts/chatgpt/</guid>
       <description>Задание для ChatGPT. Привет!
 Давай напишем статью для моего блога, об опыте использования ChatGPT.
 В статье должны быть отсылки к моей статье: https://aull.me/index.php/deutsch-lernen/
