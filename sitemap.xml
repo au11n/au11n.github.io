@@ -2,78 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://natangard.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-01-04T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-01-04T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-01-04T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/%D0%BA%D0%B8%D0%BD%D0%BE/</loc>
+    <loc>http://localhost:1313/tags/%D0%BA%D0%B8%D0%BD%D0%BE/</loc>
     <lastmod>2024-01-04T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/posts/sugar/</loc>
+    <loc>http://localhost:1313/posts/sugar/</loc>
     <lastmod>2024-01-04T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/%D1%84%D0%B8%D0%BB%D1%8C%D0%BC/</loc>
+    <loc>http://localhost:1313/tags/%D1%84%D0%B8%D0%BB%D1%8C%D0%BC/</loc>
     <lastmod>2024-01-04T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/github/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2024-01-03T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2024-01-03T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</loc>
+    <loc>http://localhost:1313/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</loc>
     <lastmod>2024-01-03T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/posts/github-pages/</loc>
+    <loc>http://localhost:1313/posts/github-pages/</loc>
     <lastmod>2024-01-03T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/chatgpt/</loc>
+    <loc>http://localhost:1313/tags/chatgpt/</loc>
     <lastmod>2023-12-14T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/posts/chatgpt/</loc>
+    <loc>http://localhost:1313/posts/chatgpt/</loc>
     <lastmod>2023-12-14T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/posts/into-the-wild/</loc>
+    <loc>http://localhost:1313/posts/into-the-wild/</loc>
     <lastmod>2023-11-14T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/deutsch/</loc>
+    <loc>http://localhost:1313/tags/deutsch/</loc>
     <lastmod>2023-11-13T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/lernen/</loc>
+    <loc>http://localhost:1313/tags/lernen/</loc>
     <lastmod>2023-11-13T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/posts/deutsch-lernen/</loc>
+    <loc>http://localhost:1313/posts/deutsch-lernen/</loc>
     <lastmod>2023-11-13T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/apache/</loc>
+    <loc>http://localhost:1313/tags/apache/</loc>
     <lastmod>2023-11-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/aws/</loc>
+    <loc>http://localhost:1313/tags/aws/</loc>
     <lastmod>2023-11-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2023-11-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/mysql/</loc>
+    <loc>http://localhost:1313/tags/mysql/</loc>
     <lastmod>2023-11-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/php/</loc>
+    <loc>http://localhost:1313/tags/php/</loc>
     <lastmod>2023-11-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/tags/wordpress/</loc>
+    <loc>http://localhost:1313/tags/wordpress/</loc>
     <lastmod>2023-11-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/posts/blog-na-wordpress/</loc>
+    <loc>http://localhost:1313/posts/blog-na-wordpress/</loc>
     <lastmod>2023-11-09T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/posts/first-post/</loc>
+    <loc>http://localhost:1313/posts/first-post/</loc>
     <lastmod>2023-11-08T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://natangard.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

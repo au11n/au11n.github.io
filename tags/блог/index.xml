@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Блог on Aull Nikita Blog</title>
-    <link>https://natangard.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</link>
+    <link>http://localhost:1313/tags/%D0%B1%D0%BB%D0%BE%D0%B3/</link>
     <description>Recent content in Блог on Aull Nikita Blog</description>
     <image>
       <title>Aull Nikita Blog</title>
-      <url>https://natangard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://natangard.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 03 Jan 2024 11:30:03 +0000</lastBuildDate>
-    <atom:link href="https://natangard.github.io/tags/%D0%B1%D0%BB%D0%BE%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%D0%B1%D0%BB%D0%BE%D0%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Переезд Блога на другой хостинг и смена технологий.</title>
-      <link>https://natangard.github.io/posts/github-pages/</link>
+      <link>http://localhost:1313/posts/github-pages/</link>
       <pubDate>Wed, 03 Jan 2024 11:30:03 +0000</pubDate>
-      <guid>https://natangard.github.io/posts/github-pages/</guid>
+      <guid>http://localhost:1313/posts/github-pages/</guid>
       <description>Заметил я такую странную штуку, когда я публиковал новый пост у себя в блоге, первые 3-4 дня сайт зависал от повышенной нагрузки:)
 Получается сайту хватало нагрузки в 3-5 одновременных пользователей чтобы зависнуть:)
 Я понимаю почему это происходило:
@@ -25,9 +25,9 @@
     </item>
     <item>
       <title>Опыт использования ChatGPT.</title>
-      <link>https://natangard.github.io/posts/chatgpt/</link>
+      <link>http://localhost:1313/posts/chatgpt/</link>
       <pubDate>Thu, 14 Dec 2023 11:30:03 +0000</pubDate>
-      <guid>https://natangard.github.io/posts/chatgpt/</guid>
+      <guid>http://localhost:1313/posts/chatgpt/</guid>
       <description>Задание для ChatGPT. Привет!
 Давай напишем статью для моего блога, об опыте использования ChatGPT.
 В статье должны быть отсылки к моей статье: https://aull.me/index.php/deutsch-lernen/
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>Самостоятельное изучение немецкого языка – Deutsch lernen, Teil 1.</title>
-      <link>https://natangard.github.io/posts/deutsch-lernen/</link>
+      <link>http://localhost:1313/posts/deutsch-lernen/</link>
       <pubDate>Mon, 13 Nov 2023 11:30:03 +0000</pubDate>
-      <guid>https://natangard.github.io/posts/deutsch-lernen/</guid>
+      <guid>http://localhost:1313/posts/deutsch-lernen/</guid>
       <description>В этой заметке я хотел бы рассказать о том, как у меня проходит самостоятельное изучение немецкого языка.
 Все мы так или иначе изучаем языки: родной язык, специализированный, профессиональный, иностранный, языки программирования, слэнг.
 В детстве основным языком для меня был русский, но также часто дома я слышал немецкую речь.
@@ -49,9 +49,9 @@
     </item>
     <item>
       <title>Создание блога на WordPress. AWS &#43; Apache &#43; PHP &#43; MySQL.</title>
-      <link>https://natangard.github.io/posts/blog-na-wordpress/</link>
+      <link>http://localhost:1313/posts/blog-na-wordpress/</link>
       <pubDate>Thu, 09 Nov 2023 11:30:03 +0000</pubDate>
-      <guid>https://natangard.github.io/posts/blog-na-wordpress/</guid>
+      <guid>http://localhost:1313/posts/blog-na-wordpress/</guid>
       <description>Идея создания блога родилась случайно, я увидел красивый домен на domain.com, который совпадал с моей фамилией, cтоил он 3.99$.
 При оплате домена мне предложили множество дополнительных решений, таких, как почта от Google, хостинг, всевозможные конструкторы сайтов в том числе на WordPress.
 Я понимал, что все эти доп. возможности подключаются в одно касание, и подумал, что это “неспортивно” и не принесет никакого удовольствия от настройки.
@@ -59,9 +59,9 @@
     </item>
     <item>
       <title>Блог: Начало.</title>
-      <link>https://natangard.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Wed, 08 Nov 2023 11:30:03 +0000</pubDate>
-      <guid>https://natangard.github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description>Сегодня 08.11.2023
 Всем привет!
 Это личный сайт Ауль Никиты.
