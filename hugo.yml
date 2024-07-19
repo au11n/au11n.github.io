@@ -1,6 +1,6 @@
 baseURL: "https://natangard.github.io/"
 title: Aull Nikita Blog
-paginate: 10
+paginate: 25
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -12,15 +12,21 @@ minify:
   disableXML: true
   minifyOutput: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Aull Nikita Blog
-  description: "Aull Nikita Blog"
-  keywords: [Blog]
+  description: "Новости технологий, обзоры гаджетов, кулинарные рецепты, полезные инструкции и личные заметки предпринимателя и техно-гика Никиты Ауль."
+  keywords: ["Никита Ауль", "личный блог", "новости", "технологии", "гаджеты", "обзоры", "рецепты", "кулинария", "инструкции", "предпринимательство", "лайфстайл", "айти", "техно-гик", "linux", "немецкий язык"]
   author: Aull Nikita
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark # dark, light, auto
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -51,31 +57,28 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: "Nikita Aull"
+    subtitle: "предприниматель, техно-гик, айтишник"
+    imageUrl: "/ich.JPG"
     imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    imageHeight: 160
+    imageTitle: "Ich"
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: Telegram
+        url: "https://t.me/aullblog"
+      - name: GitHub
+        url: "https://github.com/natangard"
 
   # home-info mode
   homeInfoParams:
     Title: "Всем привет!"
     Content: Я Никита Ауль, предприниматель, мечтатель, техно-гик, айтишник. Это мой личный блог, на котором я публикую интересные новости, обзоры, рецепты, инструкции.
 
-  #socialIcons:
-   # - name: twitter
-    #  url: "https://twitter.com/"
-   # - name: stackoverflow
-   #   url: "https://stackoverflow.com"
-   # - name: github
-   #   url: "https://github.com/"
-
+  socialIcons:
+    - name: Telegram
+      url: "https://t.me/aullblog"
+    - name: GitHub
+      url: "https://github.com/natangard"
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
@@ -93,18 +96,20 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
     - identifier: tags
-      name: tags
+      name: Тэги
       url: /tags/
-      weight: 20
+      weight: 30
+    - name: Блог
+      url: /
+      weight: 10
     - identifier: telegram
       name: telegram
       url: https://t.me/aullblog
-      weight: 30
+      weight: 40
+    - name: Поиск
+      url: search/
+      weight: 20
 pygmentsUseClasses: true
 markup:
   highlight:

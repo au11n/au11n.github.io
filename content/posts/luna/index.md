@@ -1,6 +1,6 @@
 ---
 title: "Кино: Убийцы цветочной луны. 2023"
-slug: "sugar"
+slug: "luna"
 date: 2024-01-04T11:30:03+00:00
 tags: ["Кино", "Фильм"]
 author: "Aull Nikita"
@@ -15,7 +15,7 @@ disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
