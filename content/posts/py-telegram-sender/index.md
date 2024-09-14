@@ -1,6 +1,6 @@
 ---
 title: "Мини-библиотека на Python для отправки сообщений в Telegram: py-telegram-sender."
-slug: "luna"
+slug: "py-telegram-sender"
 date: 2024-09-14T15:27:03+00:00
 tags: ["Python", "Telegram", "OpenSource", "SideProject", "py-telegram-sender"]
 author: "Aull Nikita"
