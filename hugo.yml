@@ -1,4 +1,4 @@
-baseURL: "https://natangard.github.io/"
+baseURL: "https://au11n.github.io/"
 title: Aull Nikita Blog
 paginate: 25
 theme: PaperMod
@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: "Nikita Aull"
-    subtitle: "предприниматель, техно-гик, айтишник"
+    subtitle: "ИТ-энтузиаст"
     imageUrl: "/ich.JPG"
     imageWidth: 120
     imageHeight: 160
@@ -67,18 +67,18 @@ params:
       - name: Telegram
         url: "https://t.me/aullblog"
       - name: GitHub
-        url: "https://github.com/natangard"
+        url: "https://github.com/au11n"
 
   # home-info mode
   homeInfoParams:
     Title: "Всем привет!"
-    Content: Я Никита Ауль, предприниматель, мечтатель, техно-гик, айтишник. Это мой личный блог, на котором я публикую интересные новости, обзоры, рецепты, инструкции.
+    Content: Я Никита Ауль, ИТ-энтузиаст, мечтатель, техно-гик. Это мой личный блог, на котором я публикую интересные новости, обзоры, рецепты, инструкции.
 
   socialIcons:
     - name: Telegram
       url: "https://t.me/aullblog"
     - name: GitHub
-      url: "https://github.com/natangard"
+      url: "https://github.com/au11n"
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
