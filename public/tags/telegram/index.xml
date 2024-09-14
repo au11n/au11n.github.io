@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telegram on Aull Nikita Blog</title>
+    <link>http://localhost:1313/tags/telegram/</link>
+    <description>Recent content in Telegram on Aull Nikita Blog</description>
+    <image>
+      <title>Aull Nikita Blog</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Sep 2024 12:27:08 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Мини-библиотека на Python для отправки сообщений в Telegram: py-telegram-sender.</title>
+      <link>http://localhost:1313/posts/py-telegram-sender/</link>
+      <pubDate>Sat, 14 Sep 2024 12:27:08 +0000</pubDate>
+      <guid>http://localhost:1313/posts/py-telegram-sender/</guid>
+      <description>&lt;p&gt;Пару лет назад, когда я занимался разработкой наших основных сервисов и сервисов мониторинга инфраструктуры, мне захотелось получать уведомления в Telegram о важных событиях в системах.&lt;br&gt;
+Я попробовал несколько популярных библиотек для отправки сообщений через Telegram, но они мне не подошли, уже не помню почему.&lt;br&gt;
+Какие-то вообще не работали, какие-то были слишком тяжеловесными.&lt;br&gt;
+И я решил просто набросать минималистичный скрипт для отправки текстовых сообщений и файлов.&lt;br&gt;
+Я всё думал опубликовать легковесную библиотеку на основе этого скрипта.&lt;br&gt;
+И вот сегодня, в свой выходной, я решил закрыть этот вопрос:smile:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
