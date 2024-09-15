@@ -1,7 +1,7 @@
 ---
 title: "Мини-библиотека на Python для отправки сообщений в Telegram: py-telegram-sender."
 slug: "py-telegram-sender"
-date: 2024-09-14T12:27:08+00:00
+date: 2024-09-14T12:27:08+00:00 # время только первая половина дня
 tags: ["Python", "Telegram", "OpenSource", "SideProject", "py-telegram-sender"]
 author: "Aull Nikita"
 showToc: true
