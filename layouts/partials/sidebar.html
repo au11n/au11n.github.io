@@ -3,7 +3,7 @@
   <div class="flex items-center gap-3">
     {{ $avatar := resources.Get "img/author.jpg" }}
     {{ if $avatar }}
-      {{ $small := $avatar.Resize "40x" }}
+      {{ $small := $avatar.Resize "80x" }}
       <img src="{{ $small.RelPermalink }}" alt="{{ site.Params.author.name }}" class="w-10 h-10 rounded-full">
     {{ end }}
     <span class="font-semibold">{{ site.Title }}</span>
@@ -39,7 +39,7 @@
   <div class="text-center mb-6">
     {{ $avatar := resources.Get "img/author.jpg" }}
     {{ if $avatar }}
-      {{ $medium := $avatar.Resize "160x" }}
+      {{ $medium := $avatar.Resize "320x" }}
       <img src="{{ $medium.RelPermalink }}" alt="{{ site.Params.author.name }}" class="w-32 h-32 rounded-full mx-auto mb-4 border-2 border-slate-200 dark:border-slate-600">
     {{ end }}
     <h1 class="text-lg font-bold">{{ site.Params.author.name }}</h1>
