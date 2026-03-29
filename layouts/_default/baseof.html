@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
   {{ $desc := .Description | default site.Params.description }}
   <meta name="description" content="{{ $desc }}">
@@ -72,5 +73,6 @@
       document.getElementById('mobile-menu').classList.toggle('hidden');
     }
   </script>
+  <script data-goatcounter="https://aullnikita.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
