@@ -6,7 +6,8 @@ status: "In development"
 weight: 1
 ---
 
-A mobile and desktop application for learning German, designed specifically for Russian speakers. Covers levels from A0 to B2 with a structured curriculum of 96 lessons.
+A mobile and desktop application for learning German, designed specifically for Russian speakers.
+Covers levels from A0 to B2 with a structured curriculum of 96 lessons.
 
 ## Key Features
 

@@ -6,7 +6,8 @@ status: "In Entwicklung"
 weight: 1
 ---
 
-Eine mobile und Desktop-Anwendung zum Deutschlernen, speziell fuer russischsprachige Nutzer entwickelt. Abdeckung der Niveaustufen A0 bis B2 mit einem strukturierten Lehrplan aus 96 Lektionen.
+Eine mobile und Desktop-Anwendung zum Deutschlernen, speziell fuer russischsprachige Nutzer entwickelt.
+Abdeckung der Niveaustufen A0 bis B2 mit einem strukturierten Lehrplan aus 96 Lektionen.
 
 ## Hauptfunktionen
 
