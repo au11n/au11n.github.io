@@ -54,3 +54,9 @@ dist/
 
 .vscode/
 .terraform/
+
+# Hugo build output
+public/
+
+# Claude Code
+CLAUDE.md
