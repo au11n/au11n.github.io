@@ -6,6 +6,6 @@ description = "Nikita Aull - DevSecOps Engineer, Software Developer"
   image = "img/author.jpg"
   links = [
     { github = "https://github.com/au11n" },
-    { telegram = "https://t.me/aullblog" },
+    { telegram = "https://t.me/AullNikita" },
     { linkedin = "https://www.linkedin.com/in/aull-nikita-78973327b" },
   ]
