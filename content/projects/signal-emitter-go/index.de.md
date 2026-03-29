@@ -6,7 +6,8 @@ status: "In Entwicklung"
 weight: 9
 ---
 
-Ein leistungsstarker Echtzeit-Marktmonitoring-Dienst, der anomale Handelsmuster auf 7 Kryptowaehrungsboersen erkennt und Benachrichtigungen ueber Telegram sendet.
+Ein leistungsstarker Echtzeit-Marktmonitoring-Dienst,
+der anomale Handelsmuster auf 7 Kryptowaehrungsboersen erkennt und Benachrichtigungen ueber Telegram sendet.
 Von Python auf Go umgeschrieben, mit einer 1000-fachen Geschwindigkeitssteigerung.
 
 ## Unterstuetzte Boersen
@@ -16,15 +17,12 @@ Spot- und Futures-Maerkte mit Orderbuch-Unterstuetzung.
 
 ## Signal-Kategorien
 
-Detektoren analysieren mehrere Dimensionen der Marktaktivitaet:
-- Volumen-Clustering und -Anomalien
+Detektoren analysieren Veraenderungen in der Marktaktivitaet:
+- Volumenanomalien
 - Preisvolatilitaetsmuster
-- Direktionaler Volumendruck
-- Orderbuch-Dichteverschiebungen
+- Orderbuch-Dichte
 
 ## Architektur
 
-Goroutine-basierte Pipeline: WebSocket-Aufnahme mit 100-200k Trade-Puffern, Batch-Verarbeitung nach Groesse oder Zeitfenster, parallele Detektoranalyse und Telegram-Benachrichtigung mit Chart-Generierung.
-
-Health-Monitor ueberwacht Trade-Timeouts, Kanalueberlaeufe und Warteschlangen-Aufbau.
-YAML-Konfiguration pro Boerse mit Symbolfilterung und Detektor-Parameter-Tuning.
+- Zero-Alloc-Architektur
+- Lock-Free-Architektur

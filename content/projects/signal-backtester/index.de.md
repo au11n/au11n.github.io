@@ -12,16 +12,10 @@ Teilt die Detektor-Engine mit Signal Emitter.
 ## Funktionen
 
 - Interaktive UI mit Plotly.js-Charts fuer jedes erkannte Muster
-- Muster-Labeling-System (gut/schlecht) zur Strategiebewertung
-- Parameteroptimierung mit Grenzwertberechnung aus gelabelten Daten
+- Muster-Labeling-System zur Strategiebewertung
 - Multi-Worker-Parallelverarbeitung ueber Symbole
 - Automatischer Download historischer Handelsdaten von Boersen
 - Run-Management mit Resume-Unterstuetzung und Parameter-Hashing
 - CSV-Export gelabelter Ergebnisse
 - Echtzeit-Fortschritt ueber Server-Sent Events
-
-## Workflow
-
-Detektortyp und Parameter waehlen, Zeitraum angeben, Scan starten.
-Erkannte Muster visuell pruefen, labeln, Parameter anpassen, wiederholen.
-Ergebnisse fuer weitere Analyse exportieren.
+- Feinabstimmung der Detektoren fuer den Produktionseinsatz
