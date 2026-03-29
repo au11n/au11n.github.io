@@ -1,0 +1,64 @@
+---
+title: "About"
+layout: "simple"
+---
+
+## Experience
+
+**nodes.garden (Techstars '25)** - DevSecOps Engineer
+- DevOps and information security
+- Conducted a comprehensive information security audit
+- Developed automated security testing tools for infrastructure
+- Implementing Zero Trust architecture
+
+**QQNT Software** - DevOps Engineer
+- Administered server pool running Ubuntu Server on AWS
+- Designed and deployed infrastructure using Terraform
+- Implemented the Grafana, Prometheus, Loki monitoring stack
+
+**Nialcom LLC** - Chief Executive Officer
+- Led projects for development and integration of intelligent systems for buildings and enterprises
+- Comprehensive IT infrastructure equipment of modern buildings
+
+**Arsenal+** - Chief Engineer
+- System integration projects
+- IT infrastructure design
+
+**Tyumen State University** - Lecturer
+- Taught the course "Information Systems Design"
+
+**Vindex LLC** - Head of Project Department / IT Infrastructure Engineer
+- IT infrastructure design and deployment
+- Project management
+
+**Promelectronika LLC** - System Administrator
+- Network and system administration
+
+## Freelance
+
+- Building backtesting systems for trading strategies
+- Developing signal Telegram bots for Binance and Bybit
+- High-frequency trading (HFT) software development
+- Bug Bounty / Penetration testing
+
+## Skills
+
+**Infrastructure:** Linux, AWS, Terraform, Docker, Kubernetes, Ansible
+
+**Monitoring:** Grafana, Prometheus, Loki
+
+**Development:** Python, Go, Bash, Git
+
+**Security:** Information Security, Penetration Testing, DevSecOps
+
+**Other:** LLM-based tools
+
+## Languages
+
+- English - technical
+- German - B1 certificate
+- Russian - native
+
+## Education
+
+**Tyumen State University** - Master of Math, Information Security (2013)

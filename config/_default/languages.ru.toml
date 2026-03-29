@@ -1,0 +1,18 @@
+languageCode = "ru"
+languageName = "Русский"
+weight = 3
+title = "Никита Ауль"
+
+[params]
+  displayName = "Русский"
+  isoCode = "ru"
+
+[params.author]
+  name = "Никита Ауль"
+  image = "img/author.jpg"
+  headline = "DevSecOps-инженер, разработчик, IT-энтузиаст"
+  bio = "Строю безопасную инфраструктуру, пишу код, ломаю системы, чтобы сделать их крепче."
+  links = [
+    { github = "https://github.com/au11n" },
+    { telegram = "https://t.me/aullblog" },
+  ]

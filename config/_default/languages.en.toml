@@ -1,0 +1,18 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Nikita Aull"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+
+[params.author]
+  name = "Nikita Aull"
+  image = "img/author.jpg"
+  headline = "DevSecOps Engineer, Software Developer, IT Enthusiast"
+  bio = "Building secure infrastructure, writing code, breaking things to make them stronger."
+  links = [
+    { github = "https://github.com/au11n" },
+    { telegram = "https://t.me/aullblog" },
+  ]

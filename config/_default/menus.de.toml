@@ -1,0 +1,38 @@
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Projekte"
+  pageRef = "projects"
+  weight = 20
+
+[[main]]
+  name = "Ueber mich"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 40
+
+[[main]]
+  identifier = "search"
+  name = "Suche"
+  weight = 50
+  [main.params]
+    action = "search"
+
+[[main]]
+  identifier = "locale"
+  weight = 60
+  [main.params]
+    action = "locale"
+
+[[main]]
+  identifier = "appearance"
+  weight = 70
+  [main.params]
+    action = "appearance"

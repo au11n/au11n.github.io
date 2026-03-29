@@ -1,0 +1,31 @@
+colorScheme = "congo"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+
+enableSearch = true
+enableCodeCopy = true
+
+[homepage]
+  layout = "profile"
+  homepageImage = "img/author.jpg"
+  showRecent = true
+  showRecentItems = 5
+  showMoreLink = true
+  showMoreLinkDest = "/posts"
+  cardView = true
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true
+  showTableOfContents = true
+  showWordCount = true
+  showReadingTime = true
+  showTaxonomies = true
+
+[list]
+  showBreadcrumbs = true
+  showTableOfContents = false
+  groupByYear = true
+  cardView = true

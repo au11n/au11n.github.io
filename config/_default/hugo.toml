@@ -1,0 +1,15 @@
+baseURL = "https://www.aull.me/"
+theme = "congo"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
