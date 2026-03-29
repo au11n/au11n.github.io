@@ -1,5 +1,4 @@
 baseURL = "https://www.aull.me/"
-theme = "congo"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
@@ -12,4 +11,4 @@ enableRobotsTXT = true
   category = "categories"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]

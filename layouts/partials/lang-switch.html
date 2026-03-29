@@ -1,0 +1,12 @@
+{{ if gt (len site.Languages) 1 }}
+  <div class="flex items-center gap-1">
+    {{ range site.Languages }}
+      {{ $lang := . }}
+      {{ $isCurrent := eq site.Language.Lang .Lang }}
+      <a href="{{ with $.Translations }}{{ range . }}{{ if eq .Lang $lang.Lang }}{{ .RelPermalink }}{{ end }}{{ end }}{{ else }}/{{ if ne $lang.Lang "en" }}{{ $lang.Lang }}/{{ end }}{{ end }}"
+         class="px-2 py-1 text-xs rounded {{ if $isCurrent }}bg-accent text-white{{ else }}text-slate-400 hover:text-accent{{ end }} transition-colors">
+        {{ upper .Lang }}
+      </a>
+    {{ end }}
+  </div>
+{{ end }}

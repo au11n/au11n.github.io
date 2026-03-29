@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <article>
+    <header class="mb-8">
+      <h1 class="text-3xl font-bold mb-3">{{ .Title }}</h1>
+      <div class="text-sm text-slate-500 dark:text-slate-400 flex items-center gap-3">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        {{ with .ReadingTime }}<span>{{ . }} min read</span>{{ end }}
+        {{ with .WordCount }}<span>{{ . }} words</span>{{ end }}
+      </div>
+      {{ with .Params.tags }}
+        <div class="flex flex-wrap gap-2 mt-3">
+          {{ range . }}
+            <a href="{{ "tags/" | absLangURL }}{{ . | urlize }}/" class="px-2 py-1 text-xs rounded-full bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 hover:text-accent transition-colors">{{ . }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </header>
+
+    <div class="prose dark:prose-invert max-w-none
+      prose-headings:font-semibold
+      prose-a:text-accent prose-a:no-underline hover:prose-a:underline
+      prose-code:text-sm prose-code:bg-slate-100 prose-code:dark:bg-slate-800 prose-code:px-1 prose-code:py-0.5 prose-code:rounded
+      prose-pre:bg-slate-100 prose-pre:dark:bg-slate-800 prose-pre:rounded-xl">
+      {{ .Content }}
+    </div>
+
+    <nav class="flex justify-between mt-12 pt-6 border-t border-slate-200 dark:border-slate-700 text-sm">
+      {{ with .PrevInSection }}
+        <a href="{{ .RelPermalink }}" class="hover:text-accent transition-colors">&larr; {{ .Title }}</a>
+      {{ else }}
+        <span></span>
+      {{ end }}
+      {{ with .NextInSection }}
+        <a href="{{ .RelPermalink }}" class="hover:text-accent transition-colors">{{ .Title }} &rarr;</a>
+      {{ end }}
+    </nav>
+  </article>
+{{ end }}

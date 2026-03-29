@@ -1,31 +1,11 @@
-colorScheme = "congo"
-defaultAppearance = "dark"
-autoSwitchAppearance = false
+description = "Nikita Aull - DevSecOps Engineer, Software Developer"
 
-enableSearch = true
-enableCodeCopy = true
-
-[homepage]
-  layout = "profile"
-  homepageImage = "img/author.jpg"
-  showRecent = true
-  showRecentItems = 5
-  showMoreLink = true
-  showMoreLinkDest = "/posts"
-  cardView = true
-
-[article]
-  showDate = true
-  showDateUpdated = false
-  showAuthor = true
-  showBreadcrumbs = true
-  showTableOfContents = true
-  showWordCount = true
-  showReadingTime = true
-  showTaxonomies = true
-
-[list]
-  showBreadcrumbs = true
-  showTableOfContents = false
-  groupByYear = true
-  cardView = true
+[author]
+  name = "Nikita Aull"
+  headline = "DevSecOps Engineer, Software Developer, IT Enthusiast"
+  image = "img/author.jpg"
+  links = [
+    { github = "https://github.com/au11n" },
+    { telegram = "https://t.me/aullblog" },
+    { linkedin = "https://www.linkedin.com/in/aull-nikita-78973327b" },
+  ]

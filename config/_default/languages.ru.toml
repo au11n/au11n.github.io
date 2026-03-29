@@ -3,16 +3,5 @@ languageName = "Русский"
 weight = 3
 title = "Никита Ауль"
 
-[params]
-  displayName = "Русский"
-  isoCode = "ru"
-
 [params.author]
-  name = "Никита Ауль"
-  image = "img/author.jpg"
-  headline = "DevSecOps-инженер, разработчик, IT-энтузиаст, мечтатель"
   bio = "Строю безопасную инфраструктуру, пишу код, ломаю системы"
-  links = [
-    { github = "https://github.com/au11n" },
-    { telegram = "https://t.me/aullblog" },
-  ]

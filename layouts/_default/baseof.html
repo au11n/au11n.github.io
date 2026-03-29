@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode }}" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            bg: { DEFAULT: '#0f172a', light: '#f8fafc' },
+            sidebar: { DEFAULT: '#1e293b', light: '#e2e8f0' },
+            accent: { DEFAULT: '#38bdf8', hover: '#7dd3fc' },
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+  <script>
+    if (localStorage.theme === 'light') {
+      document.documentElement.classList.remove('dark');
+    } else {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-bg dark:text-slate-200 min-h-screen leading-snug">
+  <div class="flex flex-col lg:flex-row min-h-screen">
+    {{ partial "sidebar.html" . }}
+    <main class="flex-1 lg:ml-72 p-6 lg:p-10 max-w-4xl">
+      {{ block "main" . }}{{ end }}
+      <footer class="mt-16 pt-6 border-t border-slate-200 dark:border-slate-700 text-sm text-slate-500">
+        <p>&copy; {{ now.Year }} {{ site.Title }}</p>
+      </footer>
+    </main>
+  </div>
+  <script>
+    function toggleTheme() {
+      document.documentElement.classList.toggle('dark');
+      localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+    }
+    function toggleMobileMenu() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    }
+  </script>
+</body>
+</html>

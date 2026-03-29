@@ -3,16 +3,5 @@ languageName = "Deutsch"
 weight = 2
 title = "Nikita Aull"
 
-[params]
-  displayName = "Deutsch"
-  isoCode = "de"
-
 [params.author]
-  name = "Nikita Aull"
-  image = "img/author.jpg"
-  headline = "DevSecOps Engineer, Softwareentwickler, IT-Enthusiast, Traeumer"
   bio = "Sichere Infrastruktur aufbauen, Code schreiben, Systeme brechen"
-  links = [
-    { github = "https://github.com/au11n" },
-    { telegram = "https://t.me/aullblog" },
-  ]

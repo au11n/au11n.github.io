@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <h2 class="text-2xl font-bold mb-6">{{ .Title }}</h2>
+
+  {{ with .Content }}
+    <div class="prose dark:prose-invert max-w-none mb-8">{{ . }}</div>
+  {{ end }}
+
+  <div class="flex flex-col gap-6">
+    {{ range .Pages }}
+      <article class="p-5 rounded-xl bg-white dark:bg-sidebar border border-slate-200 dark:border-slate-700 hover:border-accent dark:hover:border-accent transition-colors">
+        <a href="{{ .RelPermalink }}" class="block">
+          <h3 class="text-lg font-semibold mb-2 hover:text-accent transition-colors">{{ .Title }}</h3>
+          <div class="text-sm text-slate-500 dark:text-slate-400 mb-2">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            {{ with .ReadingTime }} - {{ . }} min read{{ end }}
+          </div>
+          {{ with .Summary }}
+            <p class="text-slate-600 dark:text-slate-300 text-sm">{{ . }}</p>
+          {{ end }}
+        </a>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}
