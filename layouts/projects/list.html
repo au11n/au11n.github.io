@@ -13,7 +13,7 @@
             <h3 class="text-lg font-semibold hover:text-accent transition-colors">{{ .Title }}</h3>
             {{ with .Params.status }}
               <span class="shrink-0 px-2 py-0.5 text-xs rounded-full
-                {{ if eq . "released" }}bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300
+                {{ if or (eq . "Released") (eq . "Veroeffentlicht") (eq . "Выпущен") }}bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300
                 {{ else }}bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-300{{ end }}">
                 {{ . }}
               </span>
