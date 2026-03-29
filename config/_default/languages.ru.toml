@@ -10,8 +10,8 @@ title = "Никита Ауль"
 [params.author]
   name = "Никита Ауль"
   image = "img/author.jpg"
-  headline = "DevSecOps-инженер, разработчик, IT-энтузиаст"
-  bio = "Строю безопасную инфраструктуру, пишу код, ломаю системы, чтобы сделать их крепче."
+  headline = "DevSecOps-инженер, разработчик, IT-энтузиаст, мечтатель"
+  bio = "Строю безопасную инфраструктуру, пишу код, ломаю системы"
   links = [
     { github = "https://github.com/au11n" },
     { telegram = "https://t.me/aullblog" },

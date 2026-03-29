@@ -12,7 +12,7 @@ layout: "simple"
 - Implementing Zero Trust architecture
 
 **QQNT Software** - DevOps Engineer
-- Administered server pool running Ubuntu Server on AWS
+- Administered the company's server pool running Ubuntu Server on AWS
 - Designed and deployed infrastructure using Terraform
 - Implemented the Grafana, Prometheus, Loki monitoring stack
 
@@ -21,23 +21,20 @@ layout: "simple"
 - Comprehensive IT infrastructure equipment of modern buildings
 
 **Arsenal+** - Chief Engineer
-- System integration projects
+- Led system integration projects
 - IT infrastructure design
 
 **Tyumen State University** - Lecturer
 - Taught the course "Information Systems Design"
 
 **Vindex LLC** - Head of Project Department / IT Infrastructure Engineer
-- IT infrastructure design and deployment
+- IT infrastructure design
 - Project management
-
-**Promelectronika LLC** - System Administrator
-- Network and system administration
 
 ## Freelance
 
 - Building backtesting systems for trading strategies
-- Developing signal Telegram bots for Binance and Bybit
+- Developing signal Telegram bots for crypto exchanges
 - High-frequency trading (HFT) software development
 - Bug Bounty / Penetration testing
 
@@ -47,7 +44,7 @@ layout: "simple"
 
 **Monitoring:** Grafana, Prometheus, Loki
 
-**Development:** Python, Go, Bash, Git
+**Development:** Python, Go, JS, Bash, Git
 
 **Security:** Information Security, Penetration Testing, DevSecOps
 

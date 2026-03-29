@@ -12,7 +12,7 @@ layout: "simple"
 - Implementierung der Zero-Trust-Architektur
 
 **QQNT Software** - DevOps Engineer
-- Administration des Serverpools mit Ubuntu Server auf AWS
+- Administration des Serverpools des Unternehmens mit Ubuntu Server auf AWS
 - Infrastruktur mit Terraform entworfen und bereitgestellt
 - Grafana, Prometheus, Loki Monitoring-Stack implementiert
 
@@ -21,23 +21,20 @@ layout: "simple"
 - Umfassende IT-Infrastrukturausstattung moderner Gebaeude
 
 **Arsenal+** - Chefingenieur
-- Systemintegrationsprojekte
+- Leitung von Systemintegrationsprojekten
 - IT-Infrastrukturdesign
 
 **Staatliche Universitaet Tjumen** - Dozent
 - Lehrveranstaltung "Design von Informationssystemen"
 
 **Vindex LLC** - Leiter der Projektabteilung / IT-Infrastrukturingenieur
-- IT-Infrastrukturdesign und -bereitstellung
+- IT-Infrastrukturdesign
 - Projektmanagement
-
-**Promelectronika LLC** - Systemadministrator
-- Netzwerk- und Systemadministration
 
 ## Freiberufliche Taetigkeit
 
 - Backtesting-Systeme fuer Handelsstrategien
-- Signal-Telegram-Bots fuer Binance und Bybit
+- Signal-Telegram-Bots fuer Kryptoboersen
 - Hochfrequenzhandel (HFT) Softwareentwicklung
 - Bug Bounty / Penetrationstests
 
@@ -47,7 +44,7 @@ layout: "simple"
 
 **Monitoring:** Grafana, Prometheus, Loki
 
-**Entwicklung:** Python, Go, Bash, Git
+**Entwicklung:** Python, Go, JS, Bash, Git
 
 **Sicherheit:** Informationssicherheit, Penetrationstests, DevSecOps
 
