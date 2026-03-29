@@ -15,20 +15,16 @@ Sowohl Spot- als auch Futures-Maerkte.
 
 ## Erkennungsalgorithmen
 
-- **Preisbewegung** - signifikante Bewegungen ueber konfigurierbare Schwellenwerte
-- **Volumenanomalien** - Verhaeltnis von 15-Minuten- zu 1-Stunden-Volumen
-- **Wiederholte Volumina** - Erkennung sich wiederholender Volumenmuster
-- **Schweres Volumen-Clustering** - symbolspezifische Schwellenwertbereiche
-- **Dichtebasierte Erkennung** - Preisdichte-Anomalien
+- **Preisbewegung**
+- **Volumenanomalien**
+- **Dichtebasierte Erkennung**
 
 ## Architektur
 
 Multi-Thread-Pipeline: WebSocket-Datenaufnahme, Trade-Verarbeitung, DataFrame-Speicher mit Multi-Index, parallele Detektoranalyse und Telegram-Benachrichtigung mit mplfinance-Charts.
 
-Intelligentes Rate-Limiting verhindert Alarm-Muedigkeit durch symbolspezifische Abklingzeiten und Deduplizierung.
 BTC-Volatilitaetsfilter unterdrueckt Rauschen in Hochvolatilitaetsphasen.
 
 ## Deployment
 
 Dockerisiert mit 12 Service-Containern (einer pro Boersen-/Markt-Paar).
-Speicherbegrenzt (1,8 GB pro Container), automatischer Neustart bei Fehler, zentralisierte Protokollierung.
