@@ -13,7 +13,3 @@
   pageRef = "about"
   weight = 30
 
-[[main]]
-  name = "Теги"
-  pageRef = "tags"
-  weight = 40
