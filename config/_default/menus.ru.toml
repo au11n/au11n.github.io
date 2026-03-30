@@ -1,4 +1,9 @@
 [[main]]
+  name = "Блог"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
   name = "Проекты"
   pageRef = "projects"
   weight = 20
@@ -7,4 +12,9 @@
   name = "Обо мне"
   pageRef = "about"
   weight = 30
+
+[[main]]
+  name = "Теги"
+  pageRef = "tags"
+  weight = 40
 

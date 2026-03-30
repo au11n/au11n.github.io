@@ -1,4 +1,9 @@
 [[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
   name = "Projekte"
   pageRef = "projects"
   weight = 20
@@ -7,4 +12,9 @@
   name = "Ueber mich"
   pageRef = "about"
   weight = 30
+
+[[main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 40
 

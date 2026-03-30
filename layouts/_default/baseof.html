@@ -72,6 +72,16 @@
     function toggleMobileMenu() {
       document.getElementById('mobile-menu').classList.toggle('hidden');
     }
+    document.addEventListener('click', function(e) {
+      var img = e.target.closest('.lightbox');
+      if (!img) return;
+      e.preventDefault();
+      var overlay = document.createElement('div');
+      overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.9);display:flex;align-items:center;justify-content:center;z-index:50;cursor:pointer;padding:2rem';
+      overlay.innerHTML = '<img src="' + img.src + '" style="max-width:90vw;max-height:90vh;object-fit:contain">';
+      overlay.onclick = function() { overlay.remove(); };
+      document.body.appendChild(overlay);
+    });
   </script>
   <script data-goatcounter="https://aullnikita.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
