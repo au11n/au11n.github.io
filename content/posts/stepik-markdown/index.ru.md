@@ -8,8 +8,8 @@ tags: ["courses"]
 Отобрал для себя 100 курсов.
 Начал с малого, освежил Markdown :)
 
-[Сертификат](https://stepik.org/cert/2558754?lang=en)
-
 <!--more-->
+
+[Сертификат](https://stepik.org/cert/2558754?lang=en)
 
 {{< img src="cover.png" alt="Сертификат Stepik Markdown" width="400" class="lightbox cursor-pointer" >}}
