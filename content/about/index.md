@@ -3,6 +3,9 @@ title: "About"
 layout: "simple"
 ---
 
+4+ years in DevOps/DevSecOps in the cryptocurrency industry.
+10+ years of experience in system integration and IT infrastructure.
+
 ## Experience
 
 **nodes.garden (Techstars '25)** - DevSecOps Engineer
@@ -37,6 +40,7 @@ layout: "simple"
 - Developing signal Telegram bots for crypto exchanges
 - High-frequency trading (HFT) software development
 - Bug Bounty / Penetration testing
+- Conducted a 5-hour security masterclass for 100+ crypto traders
 
 ## Skills
 
@@ -50,12 +54,22 @@ layout: "simple"
 
 **Other:** LLM-based tools
 
+## Strengths
+
+- Fast learner
+- Communicative
+- Responsible
+- "Technical intuition"
+
 ## Languages
 
-- English - technical
-- German - B1 certificate
+- English - technical (learning towards B1)
+- German - B1 certificate (learning towards B2)
 - Russian - native
 
 ## Education
 
 **Tyumen State University** - Master of Math, Information Security (2013)
+
+Regular self-education through specialized courses and technical literature.
+Developing in the DevSecOps direction.

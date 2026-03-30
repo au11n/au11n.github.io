@@ -3,6 +3,9 @@ title: "Ueber mich"
 layout: "simple"
 ---
 
+4+ Jahre in DevOps/DevSecOps in der Kryptowaehrungsbranche.
+10+ Jahre Erfahrung in Systemintegration und IT-Infrastruktur.
+
 ## Berufserfahrung
 
 **nodes.garden (Techstars '25)** - DevSecOps Engineer
@@ -37,6 +40,7 @@ layout: "simple"
 - Signal-Telegram-Bots fuer Kryptoboersen
 - Hochfrequenzhandel (HFT) Softwareentwicklung
 - Bug Bounty / Penetrationstests
+- 5-stuendigen Sicherheits-Masterclass fuer 100+ Krypto-Trader durchgefuehrt
 
 ## Faehigkeiten
 
@@ -50,12 +54,22 @@ layout: "simple"
 
 **Sonstiges:** LLM-basierte Tools
 
+## Staerken
+
+- Schnelle Auffassungsgabe
+- Kommunikativ
+- Verantwortungsbewusst
+- "Technische Intuition"
+
 ## Sprachen
 
-- Englisch - technisch
-- Deutsch - B1-Zertifikat
+- Englisch - technisch (Lernziel B1)
+- Deutsch - B1-Zertifikat (Lernziel B2)
 - Russisch - Muttersprache
 
 ## Bildung
 
 **Staatliche Universitaet Tjumen** - Master der Mathematik, Informationssicherheit (2013)
+
+Regelmaessige Weiterbildung durch Fachkurse und technische Literatur.
+Entwicklung in Richtung DevSecOps.
