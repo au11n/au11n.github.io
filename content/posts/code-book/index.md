@@ -11,4 +11,7 @@ I recommend.
 
 <!--more-->
 
+**Code: The Hidden Language of Computer Hardware and Software**
+Charles Petzold
+
 <img src="cover.png" alt="Code by Charles Petzold" width="200" class="lightbox cursor-pointer">
