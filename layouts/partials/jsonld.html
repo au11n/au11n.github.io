@@ -1,0 +1,35 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.Params.author.name }}",
+  "url": "{{ site.BaseURL }}",
+  "jobTitle": "{{ site.Params.author.headline }}",
+  "sameAs": [
+    {{ range $i, $link := site.Params.author.links }}{{ range $key, $val := . }}{{ if $i }},{{ end }}"{{ $val }}"{{ end }}{{ end }}
+  ]
+}
+</script>
+{{ else if .IsPage }}
+{{ if eq .Section "posts" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ .Title }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.Params.author.name }}",
+    "url": "{{ site.BaseURL }}"
+  },
+  "url": "{{ .Permalink }}",
+  "wordCount": {{ .WordCount }},
+  "inLanguage": "{{ .Language.LanguageCode }}"{{ with .Resources.GetMatch "cover.*" }},
+  "image": "{{ .Permalink }}"{{ end }}
+}
+</script>
+{{ end }}
+{{ end }}

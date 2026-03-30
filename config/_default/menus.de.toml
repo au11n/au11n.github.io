@@ -14,7 +14,22 @@
   weight = 30
 
 [[main]]
+  name = "Werkzeuge"
+  pageRef = "uses"
+  weight = 40
+
+[[main]]
+  name = "Archiv"
+  pageRef = "archive"
+  weight = 50
+
+[[main]]
+  name = "Suche"
+  pageRef = "search"
+  weight = 60
+
+[[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 40
+  weight = 70
 

@@ -21,7 +21,7 @@
           </div>
           {{ $img := .Resources.GetMatch "cover.*" }}
           {{ with $img }}
-            <img src="{{ .RelPermalink }}" alt="" class="hidden sm:block w-24 max-h-28 object-contain self-center rounded shrink-0">
+            <img src="{{ .RelPermalink }}" alt="" class="hidden sm:block w-24 max-h-28 object-contain self-center rounded shrink-0" loading="lazy">
           {{ end }}
         </a>
       </article>

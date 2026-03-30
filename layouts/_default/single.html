@@ -16,6 +16,15 @@
       {{ end }}
     </header>
 
+    {{ if .Params.toc }}
+      <nav class="mb-8 p-4 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+        <h2 class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide mb-2">{{ if eq site.Language.Lang "ru" }}Содержание{{ else if eq site.Language.Lang "de" }}Inhalt{{ else }}Table of Contents{{ end }}</h2>
+        <div class="text-sm prose dark:prose-invert prose-a:no-underline hover:prose-a:text-accent prose-ul:my-1 prose-li:my-0">
+          {{ .TableOfContents }}
+        </div>
+      </nav>
+    {{ end }}
+
     <div class="prose dark:prose-invert max-w-none
       prose-headings:font-semibold
       prose-a:text-accent prose-a:no-underline hover:prose-a:underline
@@ -34,5 +43,20 @@
         <a href="{{ .RelPermalink }}" class="hover:text-accent transition-colors">{{ .Title }} &rarr;</a>
       {{ end }}
     </nav>
+
+    {{ $related := first 3 (where (.Site.RegularPages.Related .) "Section" "posts") }}
+    {{ with $related }}
+      <div class="mt-10 pt-6 border-t border-slate-200 dark:border-slate-700">
+        <h2 class="text-lg font-semibold mb-4">{{ if eq site.Language.Lang "ru" }}Похожие посты{{ else if eq site.Language.Lang "de" }}Aehnliche Beitraege{{ else }}Related Posts{{ end }}</h2>
+        <div class="flex flex-col gap-3">
+          {{ range . }}
+            <a href="{{ .RelPermalink }}" class="p-3 rounded-lg bg-white dark:bg-sidebar border border-slate-200 dark:border-slate-700 hover:border-accent dark:hover:border-accent transition-colors">
+              <h3 class="text-sm font-medium hover:text-accent transition-colors">{{ .Title }}</h3>
+              <time class="text-xs text-slate-500 dark:text-slate-400" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
   </article>
 {{ end }}

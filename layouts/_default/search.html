@@ -1,0 +1,62 @@
+{{ define "main" }}
+  <h2 class="text-2xl font-bold mb-6">{{ .Title }}</h2>
+
+  <input
+    id="search-input"
+    type="text"
+    placeholder="{{ if eq site.Language.Lang "ru" }}Введите запрос...{{ else if eq site.Language.Lang "de" }}Suchbegriff eingeben...{{ else }}Type to search...{{ end }}"
+    class="w-full p-3 rounded-xl bg-white dark:bg-sidebar border border-slate-200 dark:border-slate-700 focus:border-accent dark:focus:border-accent focus:outline-none text-slate-900 dark:text-slate-200 mb-6"
+    autofocus
+  >
+
+  <div id="search-results" class="flex flex-col gap-4"></div>
+  <p id="no-results" class="hidden text-slate-500 dark:text-slate-400">
+    {{ if eq site.Language.Lang "ru" }}Ничего не найдено.{{ else if eq site.Language.Lang "de" }}Keine Ergebnisse gefunden.{{ else }}No results found.{{ end }}
+  </p>
+
+  <script>
+    (function() {
+      var index = null;
+      var input = document.getElementById('search-input');
+      var results = document.getElementById('search-results');
+      var noResults = document.getElementById('no-results');
+      var lang = '{{ site.Language.Lang }}';
+      var jsonUrl = (lang === 'en') ? '/index.json' : '/' + lang + '/index.json';
+
+      fetch(jsonUrl)
+        .then(function(r) { return r.json(); })
+        .then(function(data) { index = data; });
+
+      input.addEventListener('input', function() {
+        var q = this.value.trim().toLowerCase();
+        results.innerHTML = '';
+        noResults.classList.add('hidden');
+
+        if (!q || !index) return;
+
+        var matches = index.filter(function(p) {
+          return p.title.toLowerCase().includes(q) ||
+                 p.content.toLowerCase().includes(q) ||
+                 p.tags.some(function(t) { return t.toLowerCase().includes(q); });
+        });
+
+        if (matches.length === 0) {
+          noResults.classList.remove('hidden');
+          return;
+        }
+
+        matches.forEach(function(p) {
+          var el = document.createElement('a');
+          el.href = p.url;
+          el.className = 'p-4 rounded-xl bg-white dark:bg-sidebar border border-slate-200 dark:border-slate-700 hover:border-accent dark:hover:border-accent transition-colors block';
+          el.innerHTML = '<h3 class="text-lg font-semibold hover:text-accent transition-colors">' + p.title + '</h3>' +
+            '<div class="text-sm text-slate-500 dark:text-slate-400 mt-1">' + p.date + '</div>' +
+            (p.tags.length ? '<div class="flex flex-wrap gap-1.5 mt-2">' + p.tags.map(function(t) {
+              return '<span class="px-2 py-0.5 text-xs rounded-full bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400">' + t + '</span>';
+            }).join('') + '</div>' : '');
+          results.appendChild(el);
+        });
+      });
+    })();
+  </script>
+{{ end }}

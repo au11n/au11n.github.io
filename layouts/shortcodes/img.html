@@ -1,4 +1,4 @@
 {{ $img := .Page.Resources.GetMatch (.Get "src") }}
 {{ with $img }}
-<img src="{{ .RelPermalink }}" alt="{{ $.Get "alt" }}" width="{{ $.Get "width" }}" class="{{ $.Get "class" }}">
+<img src="{{ .RelPermalink }}" alt="{{ $.Get "alt" }}" width="{{ $.Get "width" }}" class="{{ $.Get "class" }}" loading="lazy">
 {{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <h2 class="text-2xl font-bold mb-6">{{ .Title }}</h2>
+
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+  {{ $years := slice }}
+  {{ range $posts }}
+    {{ $y := .Date.Format "2006" }}
+    {{ if not (in $years $y) }}
+      {{ $years = $years | append $y }}
+    {{ end }}
+  {{ end }}
+
+  {{ range $years }}
+    {{ $year := . }}
+    <h3 class="text-lg font-semibold mt-8 mb-3 text-slate-500 dark:text-slate-400">{{ $year }}</h3>
+    <div class="flex flex-col gap-2">
+      {{ range $posts }}
+        {{ if eq (.Date.Format "2006") $year }}
+          <a href="{{ .RelPermalink }}" class="flex items-baseline gap-3 py-2 px-3 rounded-lg hover:bg-white dark:hover:bg-sidebar transition-colors group">
+            <time class="text-sm text-slate-400 dark:text-slate-500 shrink-0 w-20" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02" }}</time>
+            <span class="group-hover:text-accent transition-colors">{{ .Title }}</span>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

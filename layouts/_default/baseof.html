@@ -18,15 +18,24 @@
   <meta property="og:site_name" content="{{ site.Title }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:locale" content="{{ .Language.LanguageCode }}">
-  {{ with site.Params.author.image }}
-    {{ $img := resources.Get . }}
-    {{ with $img }}
-      <meta property="og:image" content="{{ .Permalink }}">
+  {{ $ogImg := false }}
+  {{ with .Resources.GetMatch "cover.*" }}
+    {{ $ogImg = . }}
+  {{ end }}
+  {{ if $ogImg }}
+    <meta property="og:image" content="{{ $ogImg.Permalink }}">
+  {{ else }}
+    {{ with site.Params.author.image }}
+      {{ $img := resources.Get . }}
+      {{ with $img }}
+        <meta property="og:image" content="{{ .Permalink }}">
+      {{ end }}
     {{ end }}
   {{ end }}
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta name="twitter:description" content="{{ $desc }}">
+  {{ partial "jsonld.html" . }}
   <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <script>
     tailwind.config = {
@@ -45,6 +54,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     body { font-family: 'Inter', sans-serif; }
+    @view-transition { navigation: auto; }
   </style>
   <script>
     if (localStorage.theme === 'light') {
@@ -55,9 +65,10 @@
   </script>
 </head>
 <body class="bg-slate-50 text-slate-900 dark:bg-bg dark:text-slate-200 min-h-screen leading-snug">
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-accent focus:text-white focus:rounded-lg">Skip to content</a>
   <div class="flex flex-col lg:flex-row min-h-screen">
     {{ partial "sidebar.html" . }}
-    <main class="flex-1 lg:ml-72 p-6 lg:p-10 max-w-4xl">
+    <main id="main-content" class="flex-1 lg:ml-72 p-6 lg:p-10 max-w-4xl">
       {{ block "main" . }}{{ end }}
       <footer class="mt-16 pt-6 border-t border-slate-200 dark:border-slate-700 text-sm text-slate-500">
         <p>&copy; {{ now.Year }} {{ site.Title }}</p>
@@ -65,6 +76,7 @@
     </main>
   </div>
   <script>
+    console.log('%c> Hey there, curious one! Check out my GitHub: https://github.com/au11n', 'color:#38bdf8;font-size:14px;font-family:monospace');
     function toggleTheme() {
       document.documentElement.classList.toggle('dark');
       localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
@@ -81,6 +93,21 @@
       overlay.innerHTML = '<img src="' + img.src + '" style="max-width:90vw;max-height:90vh;object-fit:contain">';
       overlay.onclick = function() { overlay.remove(); };
       document.body.appendChild(overlay);
+    });
+  </script>
+  <script>
+    document.querySelectorAll('pre').forEach(function(pre) {
+      pre.style.position = 'relative';
+      var btn = document.createElement('button');
+      btn.textContent = 'Copy';
+      btn.className = 'absolute top-2 right-2 px-2 py-1 text-xs rounded bg-slate-200 dark:bg-slate-600 text-slate-600 dark:text-slate-300 hover:bg-accent hover:text-white transition-colors';
+      btn.onclick = function() {
+        var code = pre.querySelector('code');
+        navigator.clipboard.writeText(code ? code.textContent : pre.textContent);
+        btn.textContent = 'Copied!';
+        setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+      };
+      pre.appendChild(btn);
     });
   </script>
   <script data-goatcounter="https://aullnikita.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

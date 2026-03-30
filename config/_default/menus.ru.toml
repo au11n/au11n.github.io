@@ -14,7 +14,22 @@
   weight = 30
 
 [[main]]
+  name = "Инструменты"
+  pageRef = "uses"
+  weight = 40
+
+[[main]]
+  name = "Архив"
+  pageRef = "archive"
+  weight = 50
+
+[[main]]
+  name = "Поиск"
+  pageRef = "search"
+  weight = 60
+
+[[main]]
   name = "Теги"
   pageRef = "tags"
-  weight = 40
+  weight = 70
 
