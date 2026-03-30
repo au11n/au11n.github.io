@@ -10,7 +10,7 @@ Wenn man bereits Linux-Erfahrung hat, ist es nicht so spannend zu lesen, aber es
 
 <!--more-->
 
-**Linux. От новичка к профессионалу**
+**Linux. Vom Anfaenger zum Profi**
 Denis Kolisnichenko
 
 {{< img src="cover.png" alt="Linux. Vom Anfaenger zum Profi" width="200" class="lightbox cursor-pointer" >}}
