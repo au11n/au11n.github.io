@@ -58,6 +58,12 @@ dist/
 # Hugo build output
 public/
 
+# Hugo resource cache
+resources/
+
+# Node / Tailwind build
+node_modules/
+
 # Claude Code
 CLAUDE.md
 BRAINSTORM-*.md

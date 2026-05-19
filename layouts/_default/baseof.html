@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.Language.LanguageCode }}" class="scroll-smooth">
+<html lang="{{ site.Language.Locale }}" class="scroll-smooth">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,15 +9,15 @@
   <meta name="description" content="{{ $desc }}">
   <link rel="canonical" href="{{ .Permalink }}">
   {{ range .Translations }}
-    <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+    <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
   {{ end }}
-  <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+  <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
   <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta property="og:description" content="{{ $desc }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ site.Title }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-  <meta property="og:locale" content="{{ .Language.LanguageCode }}">
+  <meta property="og:locale" content="{{ .Language.Locale }}">
   {{ $ogImg := false }}
   {{ with .Resources.GetMatch "cover.*" }}
     {{ $ogImg = . }}
@@ -36,26 +36,9 @@
   <meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta name="twitter:description" content="{{ $desc }}">
   {{ partial "jsonld.html" . }}
-  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            bg: { DEFAULT: '#0f172a', light: '#f8fafc' },
-            sidebar: { DEFAULT: '#1e293b', light: '#e2e8f0' },
-            accent: { DEFAULT: '#38bdf8', hover: '#7dd3fc' },
-          }
-        }
-      }
-    }
-  </script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-    body { font-family: 'Inter', sans-serif; }
-    @view-transition { navigation: auto; }
-  </style>
+  <link rel="preload" href="/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  {{ $css := resources.Get "css/main.css" | css.PostCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   <script>
     if (localStorage.theme === 'light') {
       document.documentElement.classList.remove('dark');

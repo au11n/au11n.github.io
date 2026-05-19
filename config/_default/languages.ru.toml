@@ -1,5 +1,5 @@
-languageCode = "ru"
-languageName = "Русский"
+locale = "ru"
+label = "Русский"
 weight = 3
 title = "Никита Ауль"
 

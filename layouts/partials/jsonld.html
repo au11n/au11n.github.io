@@ -27,7 +27,7 @@
   },
   "url": "{{ .Permalink }}",
   "wordCount": {{ .WordCount }},
-  "inLanguage": "{{ .Language.LanguageCode }}"{{ with .Resources.GetMatch "cover.*" }},
+  "inLanguage": "{{ .Language.Locale }}"{{ with .Resources.GetMatch "cover.*" }},
   "image": "{{ .Permalink }}"{{ end }}
 }
 </script>
