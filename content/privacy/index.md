@@ -92,9 +92,10 @@ The following data is processed:
 
 **No cookies, no local storage and no fingerprinting** are used.
 
-To count returning visitors, GoatCounter creates a hash from the IP address, user agent and a **salt that rotates every 4 hours**.
-The IP address itself is not stored.
-After 4 hours it is technically impossible to link the hash to a person.
+To count returning visitors, GoatCounter keeps a combination of site name, IP address and user agent **in memory for up to 8 hours**, mapped to a randomly generated string.
+This mapping is not stored in the database.
+The IP address, the full user agent and any tracker ID are not stored.
+After 8 hours it is technically impossible to link this to a person.
 
 The legal basis is Art. 6 (1) (f) GDPR (legitimate interest in privacy-friendly reach measurement).
 No consent under § 25 TDDDG is required, as no information is stored on or read from the end device.

@@ -92,9 +92,10 @@ Folgende Daten werden verarbeitet:
 
 Es werden **keine Cookies, kein LocalStorage und kein Fingerprinting** verwendet.
 
-Zur Zählung wiederkehrender Besucher bildet GoatCounter einen Hash aus IP-Adresse, User-Agent und einem **alle 4 Stunden rotierenden Salt**.
-Die IP-Adresse selbst wird nicht gespeichert.
-Nach Ablauf von 4 Stunden ist eine Zuordnung des Hashes zu einer Person technisch ausgeschlossen.
+Zur Zählung wiederkehrender Besucher hält GoatCounter eine Kombination aus Seitenname, IP-Adresse und User-Agent **für bis zu 8 Stunden im Arbeitsspeicher** und ordnet ihr eine zufällig generierte Zeichenfolge zu.
+Diese Zuordnung wird nicht in der Datenbank gespeichert.
+Die IP-Adresse, der vollständige User-Agent und eine Tracker-ID werden nicht gespeichert.
+Nach Ablauf von 8 Stunden ist eine Zuordnung zu einer Person technisch ausgeschlossen.
 
 Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer datenschutzfreundlichen Reichweitenmessung).
 Eine Einwilligungspflicht nach § 25 TDDDG besteht nicht, da auf dem Endgerät keine Informationen gespeichert oder ausgelesen werden.
